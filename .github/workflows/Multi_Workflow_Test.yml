@@ -4,10 +4,10 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
-      -name: first-step
-       run: echo "1.Single Run-1" 
-      -name:  second-step
-       run: | 
+      - name: first-step
+        run: echo "1.Single Run-1" 
+      - name:  second-step
+        run: | 
             echo "Multi runs"
             echo "Single Run-1"
             echo "Single Run-2"
